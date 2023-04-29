@@ -8,6 +8,7 @@ TagManager:
   - EnemyWeapon
   - Archer
   - Cube
+  - Sling
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Enemy
   - Arrow
   - Box
-  - 
+  - Cube
   - 
   - 
   - 
