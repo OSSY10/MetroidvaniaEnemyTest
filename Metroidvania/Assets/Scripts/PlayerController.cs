@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -26,6 +27,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float wallSlideSpeed;
 
     bool isOnGround;
+    private Rigidbody2D newCubeRigidbody;
+    private GameObject newCube;
+    private bool holdingCube;
+    public Transform handPosition; // Karakterin elinin pozisyonunu temsil eden bir Transform
+    private GameObject heldObject;
+    public GameObject cubeObject;
+    private Rigidbody2D heldObjectRigidbody;
     private bool isWallSliding;
     private bool isTouchingWall;
     bool canDoubleJump;
@@ -51,7 +59,11 @@ public class PlayerController : MonoBehaviour
         // Shooting();
         BallMode();
         CheckSurroundings();
-        
+        if (Input.GetKeyDown(KeyCode.F) && newCube != null)
+        {
+            ReleaseObject();
+        }
+
     }
     void Movement()
     {
@@ -116,9 +128,48 @@ public class PlayerController : MonoBehaviour
     {
         isOnGround = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsLayer);
 
-        isTouchingWall = Physics2D.Raycast(wallCheckPoint.position, transform.right, wallCheckDistance, whatIsLayer);
-        Gizmos.DrawRay(wallCheckPoint.position, transform.right * wallCheckDistance);
+        isTouchingWall = Physics2D.Raycast(wallCheckPoint.position, transform.right * Mathf.Sign(transform.localScale.x), wallCheckDistance, whatIsLayer);
     }
+ 
+
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        // Eğer objeyi tutmuyorsa ve çarpışan objenin etiketi "Pickup" ise, "F" tuşuna basarak objeyi tut
+        if (heldObject == null && collision.CompareTag("Cube") && Input.GetKey(KeyCode.E))
+        {
+            Debug.Log("heyyyy");
+            PickupObject(collision.gameObject);
+        }
+    }
+    
+
+    private void PickupObject(GameObject obj)
+    {
+        heldObject = obj;
+        Destroy(heldObject);
+        newCube = Instantiate(cubeObject, handPosition.position, Quaternion.identity, handPosition);
+        // Tutulan objenin Rigidbody2D bileşenini al ve kinematik olarak işaretle
+        newCubeRigidbody = newCube.GetComponent<Rigidbody2D>();
+        if (newCubeRigidbody != null)
+        {
+            newCubeRigidbody.isKinematic = true;
+        }
+    }
+
+    private void ReleaseObject()
+    {
+        // Tutulan objenin Rigidbody2D bileşenini kinematik olmayan hale getir
+        if (newCubeRigidbody != null)
+        {
+            newCubeRigidbody.isKinematic = false;
+        }
+        newCube.transform.SetParent(null);
+        // Objeyi bırak ve referansları sıfırla
+        newCube = null;
+        newCubeRigidbody = null;
+    }
+    
 
     void CheckIfWallSliding()
     {
