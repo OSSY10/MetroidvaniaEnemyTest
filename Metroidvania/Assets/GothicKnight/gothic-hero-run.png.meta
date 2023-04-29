@@ -39,7 +39,7 @@ TextureImporter:
       213: -6368970444911176205
     second: gothic-hero-run_11
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -98,6 +99,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -113,6 +115,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -388,6 +402,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      gothic-hero-run_9: -7729537411479187167
+      gothic-hero-run_2: 7677731886197083832
+      gothic-hero-run_8: -6552776000313715405
+      gothic-hero-run_1: -3991298745443165112
+      gothic-hero-run_5: 1157674346292121983
+      gothic-hero-run_11: -6368970444911176205
+      gothic-hero-run_7: -5231704881271510533
+      gothic-hero-run_6: -150065627806584677
+      gothic-hero-run_0: -6340975805839830933
+      gothic-hero-run_10: 6088148169649431297
+      gothic-hero-run_3: 7380437498476750783
+      gothic-hero-run_4: -3646713291993161854
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

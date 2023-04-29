@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -10,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float dashTime, dashSpeed;
     public float waitAfterDashing;
     [SerializeField] Transform groundCheckPoint;
+    [SerializeField] private Transform wallCheckPoint;
     [SerializeField] LayerMask whatIsLayer;
     [SerializeField] Animator anim;
     [SerializeField] Animator ballAnim;
@@ -20,8 +22,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Color afterImageColor;
     [SerializeField] GameObject standing, ball;
     [SerializeField] float waitForBall;
+    [SerializeField] private float wallCheckDistance;
+    [SerializeField] private float wallSlideSpeed;
 
     bool isOnGround;
+    private bool isWallSliding;
+    private bool isTouchingWall;
     bool canDoubleJump;
     float horizontalInput;
     float dashCounter;
@@ -38,11 +44,14 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CheckIfWallSliding();
         Movement();
         Animation();
         Flip();
-        Shooting();
+        // Shooting();
         BallMode();
+        CheckSurroundings();
+        
     }
     void Movement()
     {
@@ -72,14 +81,13 @@ public class PlayerController : MonoBehaviour
             }
             dashRechargeCounter = waitAfterDashing;
         }
-        else
+        else if(ball.activeSelf == false)
         {
             horizontalInput = Input.GetAxisRaw("Horizontal");
             rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
         }
         
 
-        isOnGround = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsLayer);
 
         if(Input.GetButtonDown("Jump") && (isOnGround || canDoubleJump))
         {
@@ -93,6 +101,34 @@ public class PlayerController : MonoBehaviour
                 anim.SetTrigger("doubleJump");
             }
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+
+        if (isWallSliding)
+        {
+            if (rb.velocity.y < -wallSlideSpeed)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, -wallSlideSpeed);
+            }
+        }
+    }
+
+    private void CheckSurroundings()
+    {
+        isOnGround = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsLayer);
+
+        isTouchingWall = Physics2D.Raycast(wallCheckPoint.position, transform.right, wallCheckDistance, whatIsLayer);
+        Gizmos.DrawRay(wallCheckPoint.position, transform.right * wallCheckDistance);
+    }
+
+    void CheckIfWallSliding()
+    {
+        if (!isOnGround && isTouchingWall && rb.velocity.y < 0)
+        {
+            isWallSliding = true;
+        }
+        else
+        {
+            isWallSliding = false;
         }
     }
     void Animation()
@@ -120,14 +156,14 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-    void Shooting()
-    {
-        if(Input.GetButtonDown("Fire1") && standing.activeSelf)
-        {
-            Instantiate(bullet, bulletPosition.position, bulletPosition.rotation).moveDirection = new Vector2(transform.localScale.x, 0);
-            anim.SetTrigger("firedBullet");
-        }
-    }
+    // void Shooting()
+    // {
+    //     if(Input.GetButtonDown("Fire1") && standing.activeSelf)
+    //     {
+    //         Instantiate(bullet, bulletPosition.position, bulletPosition.rotation).moveDirection = new Vector2(transform.localScale.x, 0);
+    //         anim.SetTrigger("firedBullet");
+    //     }
+    // }
     void AfterImage()
     {
         SpriteRenderer image = Instantiate(afterImage, transform.position, transform.rotation);
