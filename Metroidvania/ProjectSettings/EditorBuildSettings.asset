@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Metroid/Scenes/SampleScene.unity
-    guid: 0e9a5bcdd0a071a479fe4dfb400521ca
-  - enabled: 1
     path: Assets/Scenes/0.unity
     guid: ee0a68e22a2896b4da87569455e7983d
   - enabled: 1
