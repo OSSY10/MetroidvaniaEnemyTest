@@ -127,7 +127,7 @@ public class PlayerController : MonoBehaviour
 
     private void CheckSurroundings()
     {
-        isOnGround = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsLayer);
+        isOnGround = Physics2D.OverlapCircle(groundCheckPoint.position, .4f, whatIsLayer);
 
         isTouchingWall = Physics2D.Raycast(wallCheckPoint.position, transform.right * Mathf.Sign(transform.localScale.x), wallCheckDistance, whatIsLayer);
     }
