@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class FinishPoint : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        if (other.gameObject.CompareTag("Player"))
+
+        if (col.gameObject.CompareTag("Player"))
         {
+            Debug.Log("hon");
+            Debug.Log(SceneManager.GetActiveScene().buildIndex);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
         }
