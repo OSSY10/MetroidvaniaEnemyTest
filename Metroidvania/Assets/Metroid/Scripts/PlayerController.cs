@@ -235,6 +235,10 @@ public class PlayerController : MonoBehaviour
     {
         if(!ball.activeSelf)
         {
+            if (newCube != null)
+            {
+                newCube.SetActive(true);
+            }
             if(Input.GetAxisRaw("Vertical") < -.9f)
             {
                 ballCounter -= Time.deltaTime;
@@ -252,6 +256,10 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            if (newCube != null)
+            {
+                newCube.SetActive(false);
+            }
             if (Input.GetAxisRaw("Vertical") > .9f)
             {
                 ballCounter -= Time.deltaTime;
