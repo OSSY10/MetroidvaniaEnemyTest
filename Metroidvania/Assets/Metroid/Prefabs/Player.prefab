@@ -101,7 +101,7 @@ MonoBehaviour:
   holdingCube: 0
   handPosition: {fileID: 259328591825014196}
   slingPosition: {fileID: 0}
-  cubeObject: {fileID: 2290498083989026037, guid: 9598c43708222254886d7e82968aba0b, type: 3}
+  cubeObject: {fileID: 2997272672757336337, guid: 3cf3030f0f215ce4cbec507120fded05, type: 3}
 --- !u!1 &259328590237961753
 GameObject:
   m_ObjectHideFlags: 0

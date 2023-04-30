@@ -6,13 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class FinishPoint : MonoBehaviour
 {
+    [SerializeField] private PlayerController playerController;
     private void OnTriggerEnter2D(Collider2D col)
     {
 
-        if (col.gameObject.CompareTag("Player"))
+        if (col.gameObject.CompareTag("Player") && playerController.holdingCube)
         {
-            Debug.Log("hon");
-            Debug.Log(SceneManager.GetActiveScene().buildIndex);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
         }
