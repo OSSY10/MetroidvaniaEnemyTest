@@ -37686,6 +37686,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2128195880}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 2128195877}
     - target: {fileID: 6805610655312733338, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: m_Name
       value: Archer (3)
@@ -37795,6 +37803,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2128195880}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 2128195877}
     - target: {fileID: 6805610655312733338, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: m_Name
       value: Archer
@@ -38351,6 +38367,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2128195880}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 2128195877}
     - target: {fileID: 6805610655312733338, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: m_Name
       value: Archer (1)
@@ -38408,6 +38432,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2128195880}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 2128195877}
     - target: {fileID: 6805610655312733338, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: m_Name
       value: Archer (4)
@@ -38584,6 +38616,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2128195880}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 2128195877}
     - target: {fileID: 6805610655312733338, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: m_Name
       value: Archer (2)
@@ -38672,6 +38712,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2128195880}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 2128195877}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 
@@ -43159,3 +43207,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2128195877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 259328590103959732, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
+  m_PrefabInstance: {fileID: 1159636341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2128195880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 259328590103959734, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
+  m_PrefabInstance: {fileID: 1159636341}
+  m_PrefabAsset: {fileID: 0}
