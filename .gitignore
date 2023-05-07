@@ -59,4 +59,10 @@ sysinfo.txt
 crashlytics-build.properties
 
 Metroidvania/UserSettings/EditorUserSettings.asset
+<<<<<<< Updated upstream
 Metroidvania/UserSettings/Layouts/default-2021.dwlt
+=======
+Metroidvania/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+>>>>>>> Stashed changes
+Metroidvania/UserSettings/EditorUserSettings.asset
+Metroidvania/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
