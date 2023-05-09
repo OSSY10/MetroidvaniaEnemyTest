@@ -35346,19 +35346,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5036197831755428711, guid: a72696a1a3c5bc442aec5fed2144015e, type: 3}
       propertyPath: m_Size.x
-      value: 3.7223625
+      value: 4.3224487
       objectReference: {fileID: 0}
     - target: {fileID: 5036197831755428711, guid: a72696a1a3c5bc442aec5fed2144015e, type: 3}
       propertyPath: m_Size.y
-      value: 3.408245
+      value: 3.9226036
       objectReference: {fileID: 0}
     - target: {fileID: 5036197831755428711, guid: a72696a1a3c5bc442aec5fed2144015e, type: 3}
       propertyPath: m_Offset.x
-      value: 0.31411743
+      value: 0.61416054
       objectReference: {fileID: 0}
     - target: {fileID: 5036197831755428711, guid: a72696a1a3c5bc442aec5fed2144015e, type: 3}
       propertyPath: m_Offset.y
-      value: 1.2041225
+      value: 0.9469433
       objectReference: {fileID: 0}
     - target: {fileID: 5036197831755428762, guid: a72696a1a3c5bc442aec5fed2144015e, type: 3}
       propertyPath: playerController
