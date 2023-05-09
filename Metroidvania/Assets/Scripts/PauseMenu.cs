@@ -9,6 +9,16 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuPanel;
     private bool isPaused = false;
 
+    private void Start()
+    {
+        if (isPaused == true) ;
+
+        {
+            isPaused = false;
+            Time.timeScale = 1;
+        }
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
