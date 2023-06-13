@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
         // Shooting();
         BallMode();
         CheckSurroundings();
-        if (Input.GetKeyDown(KeyCode.F) && newCube != null)
+        if (Input.GetKeyDown(KeyCode.F) && holdingCube)
         {
             ReleaseObject();
         }
@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
             }
             dashRechargeCounter = waitAfterDashing;
         }
-        else if(ball.activeSelf == false)
+        else 
         {
             horizontalInput = Input.GetAxisRaw("Horizontal");
             rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
@@ -152,11 +152,12 @@ public class PlayerController : MonoBehaviour
     private void PickupObject(GameObject obj)
     {
         heldObject = obj;
-        Destroy(heldObject);
-        newCube = Instantiate(cubeObject, handPosition.position, Quaternion.identity, handPosition);
+        // Objeyi elin pozisyonuna taşı
+        obj.transform.position = handPosition.position;
+        obj.transform.SetParent(handPosition);
         holdingCube = true;
         // Tutulan objenin Rigidbody2D bileşenini al ve kinematik olarak işaretle
-        newCubeRigidbody = newCube.GetComponent<Rigidbody2D>();
+        newCubeRigidbody = obj.GetComponent<Rigidbody2D>();
         if (newCubeRigidbody != null)
         {
             newCubeRigidbody.isKinematic = true;
@@ -170,9 +171,10 @@ public class PlayerController : MonoBehaviour
         {
             newCubeRigidbody.isKinematic = false;
         }
-        newCube.transform.SetParent(null);
+        // Objeyi elin mevcut pozisyonunda bırak
+        heldObject.transform.SetParent(null);
         // Objeyi bırak ve referansları sıfırla
-        newCube = null;
+        heldObject = null;
         newCubeRigidbody = null;
         holdingCube = false;
     }
