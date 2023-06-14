@@ -154,6 +154,7 @@ public class PlayerController : MonoBehaviour
         heldObject = obj;
         // Objeyi elin pozisyonuna taşı
         obj.transform.position = handPosition.position;
+        obj.transform.rotation = Quaternion.identity; // Rotasyonu sıfırla
         obj.transform.SetParent(handPosition);
         holdingCube = true;
         // Tutulan objenin Rigidbody2D bileşenini al ve kinematik olarak işaretle
