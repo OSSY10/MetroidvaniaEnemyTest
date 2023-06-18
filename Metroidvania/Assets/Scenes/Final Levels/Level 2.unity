@@ -32187,10 +32187,14 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1014145507}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
+      objectReference: {fileID: 1149946279}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -32260,10 +32264,14 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1014145507}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
+      objectReference: {fileID: 1149946279}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -32445,7 +32453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAQIexFI0KReQIAADEFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMFy2jAQ/RVG58LYBgLurTWE9JCECe3k4ouQ11iDLHkkOUAy/HtXso1dygV53+7bt09rfxEuTQXMKr3RPHtWGZDvI+LO5NuoB5/gTA9K7vgndDnvPLOFS6I+541arjAeujKjSrCasx/yIFxygMFa8lzpcp0dIFHGGgznVBhASCvrqiWGvkbkjH/j2JVc8BQt3OkTT3EwuuKRgbSg+9RoOpnF+JtN24pwOnHP8TxqC6PJPJhO4/niYT0OHjxJLZmgZQWZm6jnWnQcs8inSZy1zXBzMSUEN61QYi+VNyKhlalxTEzIOMXBvbpw4rgK4IfCOg3D8tc8N2BbXzS9rLhGBxte8lM1tpbUHBtlH1TUrtPSa2oon/9Dx6GHc63Kp65rGLgOtuDs+EYvjBo7cH0YXg2Ee3tOVBzpXsB7AfJFbbSqZYag1bUrrQ1Eq/7xNlhSADv28UbqXbCuer+7S+6u2M1w9bOfE8HLvYMmsyawE8r77TcDNN7MLxTs98a0FBh1Kv4Y+E0PwwVrgUeujUWonVI6eXtVa5dK1t4zN01tE6Ul+HArugJJhb1skcbeX+AdNmh7hzxS9yq1zVuse0PuSny4zw+CO2irTrfLMoU6PYMpXmsruIRetANe0KdESdns19CTrmxX65yyQdmh5tm/q0VYHsPDbE6DZQyLkGXjKFiEEEbT5XyfL2DJiN89LnFOKraN0NYevDXZk0vcs+4LM9poWvldzzQ9bfhnqQaWc5mrHdMA8rVhuAkHjU3wrczWGUeDdmAtl/6+yVdKhGJHyNIbUeonXZ+tpmnPkpKKfyjrIilJ/CclJS582+Wthg8OJ9e8I7uS619QSwMEFAAACAgAABAh7EHAUa5tAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFJymmWqmYlpooGFZaq5YXKKrpGBuWGqoZGxhWlSmnmqRbJSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAABAh7EUjQpF5AgAAMQUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAABAh7EHAUa5tAAAAeAAAAAkAJAAAAAAAAAAAAAAAxgIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB+AwAAAAA=
+    dataString: UEsDBBQAAAgIAAAQIewTqeeVeQIAADIFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoWxDQTcW2sI6SEJE9rJxRchr7EGWfJIcoBk+O9dyTZ2KRfk9/bj7dPaX4RLUwGzSm80z55VBuT7iLgz+TbqySc404OSO/4JXcw7z2zhgqiPeaOWK8RDl2ZUCVZz9kMehAsOEKwlz5Uu19kBEmWsQTinwgBSWlmXLRH6GpEz/o1jl3LBU7Rwp088xcHoikcG0oLuQ6PpZBbjbzZtM8LpxD3H86hNjCbzYDqN54uH9Th48EVqyQQtK8jcRH2tRVdjFvkwibO2EW4upoTgphVK7KXyRiS0MjWOiQEZpzi4VxdOXK0C+KGwTsMw/TXPDdjWF00vK67RwaYu+akaW0tqjo2yDypq12npNTUln/9jx6Gnc63Kp65rGLgOtuDs+EYvjBo7cH0IrwbCvT0nKo50L+C9APmiNlrVMkPS6tql1gaiVf94GywpgB17vJF6B9ZV73d3yd0VuxmufvZzIni5d9Rk1gA7obzffjNA4838QsF+b0xbAlGn4o+B3/QwXLCWeOTaWKTaKaWTt1e1dqFk7T1z09Q2UVqCh1vRFUgq7GWLZez9Bd5xg7Z3zCN1r1LbvOW6N+QuxcN9fBDcUVt1ul2WKdTpGUzxWlvBJfSiHfGCPiVKyma/hp50abta55QN0g41z/5dLcLyGB5mcxosY1iELBtHwSKEMJou5/t8AUtG/O5xiXNSsW2Etvbgrcm+uMQ9674wo42mld/1TNPThn+WaiiQy1ztmAaQr02Jm3LQ2AVfy2ydcXRoB9Zy6S+cfKVEKHaELL31TP2o67PVNO2rpKTiH8o6JCWJ/6akxMG3Zd5q+OBwcs27Yldy/QtQSwMEFAAACAgAABAh7EHAUa5tAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tFJymmWqmYlpooGFZaq5YXKKrpGBuWGqoZGxhWlSmnmqRbJSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAABAh7BOp55V5AgAAMgUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAABAh7EHAUa5tAAAAeAAAAAkAJAAAAAAAAAAAAAAAxgIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB+AwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -32617,10 +32625,14 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1014145507}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
+      objectReference: {fileID: 1149946279}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -32690,10 +32702,14 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1014145507}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
+      objectReference: {fileID: 1149946279}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -32902,7 +32918,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1149946279}
     - target: {fileID: 6805610655312733338, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: m_Name
       value: Archer (9)
@@ -32970,6 +32986,11 @@ PrefabInstance:
       objectReference: {fileID: 2095038893}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b8f55522a6cf1e48b7a57a99be18e1b, type: 3}
+--- !u!4 &1014145507 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1841701173919074402, guid: 8b8f55522a6cf1e48b7a57a99be18e1b, type: 3}
+  m_PrefabInstance: {fileID: 1014145506}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1090374290
 GameObject:
   m_ObjectHideFlags: 0
@@ -33086,10 +33107,14 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1014145507}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
+      objectReference: {fileID: 1149946279}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -33198,12 +33223,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 259328590103959735, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
   m_PrefabInstance: {fileID: 1149946277}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1149946279}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00b7e1fcd607e1245a90e45e4efab529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1149946279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 259328590103959732, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
+  m_PrefabInstance: {fileID: 1149946277}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1217447510
 GameObject:
   m_ObjectHideFlags: 0
@@ -33392,10 +33422,14 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1014145507}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
+      objectReference: {fileID: 1149946279}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -33755,10 +33789,14 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1014145507}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
+      objectReference: {fileID: 1149946279}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -33877,10 +33915,14 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1014145507}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
+      objectReference: {fileID: 1149946279}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -63225,10 +63267,14 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1014145507}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
+      objectReference: {fileID: 1149946279}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]

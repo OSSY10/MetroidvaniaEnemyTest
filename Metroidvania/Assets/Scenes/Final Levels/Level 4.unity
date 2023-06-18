@@ -11295,7 +11295,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
@@ -11373,7 +11373,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
@@ -11451,7 +11451,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: radius
       value: 12
@@ -11564,7 +11564,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
@@ -12233,7 +12233,7 @@ GameObject:
   - component: {fileID: 681728934}
   - component: {fileID: 681728933}
   - component: {fileID: 681728932}
-  m_Layer: 3
+  m_Layer: 13
   m_Name: TrapDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12439,7 +12439,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
@@ -12475,7 +12475,7 @@ GameObject:
   - component: {fileID: 734353480}
   - component: {fileID: 734353479}
   - component: {fileID: 734353478}
-  m_Layer: 3
+  m_Layer: 13
   m_Name: TrapDoor (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12717,7 +12717,7 @@ GameObject:
   - component: {fileID: 885200096}
   - component: {fileID: 885200095}
   - component: {fileID: 885200094}
-  m_Layer: 3
+  m_Layer: 13
   m_Name: TrapDoor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12892,7 +12892,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: radius
       value: 12
@@ -13255,7 +13255,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
@@ -13333,7 +13333,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
@@ -13386,8 +13386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 014cb372f9e18dd4ea6f95d39c5c228a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuPanel: {fileID: 738735741}
-  mainMenu: Start
 --- !u!4 &1168731567
 Transform:
   m_ObjectHideFlags: 0
@@ -14062,7 +14060,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
@@ -14140,7 +14138,7 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 2070526925}
+      objectReference: {fileID: 2107276246}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
@@ -14243,7 +14241,7 @@ GameObject:
   - component: {fileID: 1709122646}
   - component: {fileID: 1709122645}
   - component: {fileID: 1709122644}
-  m_Layer: 3
+  m_Layer: 13
   m_Name: TrapDoor (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14491,7 +14489,7 @@ GameObject:
   - component: {fileID: 1794160950}
   - component: {fileID: 1794160949}
   - component: {fileID: 1794160948}
-  m_Layer: 3
+  m_Layer: 13
   m_Name: TrapDoor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49494,6 +49492,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cf3030f0f215ce4cbec507120fded05, type: 3}
+--- !u!4 &1944696963 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2997272672757336812, guid: 3cf3030f0f215ce4cbec507120fded05, type: 3}
+  m_PrefabInstance: {fileID: 1944696962}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1990425158
 GameObject:
   m_ObjectHideFlags: 0
@@ -51021,6 +51024,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 259328590103959735, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
+      propertyPath: whatIsLayer.m_Bits
+      value: 8200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
 --- !u!114 &2070526924 stripped
@@ -51034,11 +51041,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b7e1fcd607e1245a90e45e4efab529, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &2070526925 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 259328590103959734, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
-  m_PrefabInstance: {fileID: 2070526923}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2070526926 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 259328590103959732, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
@@ -51133,6 +51135,11 @@ PrefabInstance:
     - target: {fileID: 1841701173919074407, guid: 8b8f55522a6cf1e48b7a57a99be18e1b, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1944696963}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b8f55522a6cf1e48b7a57a99be18e1b, type: 3}
+--- !u!4 &2107276246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1841701173919074402, guid: 8b8f55522a6cf1e48b7a57a99be18e1b, type: 3}
+  m_PrefabInstance: {fileID: 2107276245}
+  m_PrefabAsset: {fileID: 0}

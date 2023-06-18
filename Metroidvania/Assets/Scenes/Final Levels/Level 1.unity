@@ -11423,7 +11423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: targetLayer.m_Bits
-      value: 4096
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -20567,7 +20567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: targetLayer.m_Bits
-      value: 4096
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -20890,12 +20890,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 772805778}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: canSeePlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: ghostLayer.m_Bits
       value: 4096
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: targetLayer.m_Bits
-      value: 4096
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
@@ -57620,7 +57624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: targetLayer.m_Bits
-      value: 4096
+      value: 4224
       objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]

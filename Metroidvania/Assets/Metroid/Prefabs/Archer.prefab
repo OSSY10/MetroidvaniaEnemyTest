@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  waitTime: 2
+  waitTime: 1
   patrolPoints:
   - {fileID: 0}
   - {fileID: 0}
@@ -198,7 +198,7 @@ MonoBehaviour:
   angle: 45
   targetLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 4224
   obstructionLayer:
     serializedVersion: 2
     m_Bits: 8
