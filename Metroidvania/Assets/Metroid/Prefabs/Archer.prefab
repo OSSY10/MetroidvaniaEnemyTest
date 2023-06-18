@@ -201,7 +201,7 @@ MonoBehaviour:
     m_Bits: 4224
   obstructionLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 8200
   boolTime: 0
   playerRef: {fileID: 0}
   canSeePlayer: 0
