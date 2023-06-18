@@ -11412,11 +11412,19 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 772805781}
+      objectReference: {fileID: 1480589394}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
       objectReference: {fileID: 772805778}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: ghostLayer.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 
@@ -20357,11 +20365,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 259328590103959732, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
   m_PrefabInstance: {fileID: 1034545865}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &772805781 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 259328590103959734, guid: 886bf1154a66ea44f85f1713e619bf8e, type: 3}
-  m_PrefabInstance: {fileID: 1034545865}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &787035124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2997272672757336812, guid: 3cf3030f0f215ce4cbec507120fded05, type: 3}
@@ -20553,11 +20556,19 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 772805781}
+      objectReference: {fileID: 1480589394}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
       objectReference: {fileID: 772805778}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: ghostLayer.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 
@@ -20873,11 +20884,19 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 772805781}
+      objectReference: {fileID: 1480589394}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
       objectReference: {fileID: 772805778}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: ghostLayer.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 
@@ -21124,6 +21143,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe3dd7f31eb1f7d46898a07cd897e3b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1480589394 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1841701173919074402, guid: 8b8f55522a6cf1e48b7a57a99be18e1b, type: 3}
+  m_PrefabInstance: {fileID: 1303916344}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1489629092
 GameObject:
   m_ObjectHideFlags: 0
@@ -57585,11 +57609,19 @@ PrefabInstance:
     - target: {fileID: 6805610655312733316, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 772805781}
+      objectReference: {fileID: 1480589394}
     - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: playerRef
       value: 
       objectReference: {fileID: 772805778}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: ghostLayer.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
+    - target: {fileID: 6805610655312733317, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
+      propertyPath: targetLayer.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
     - target: {fileID: 6805610655312733319, guid: 82699fcfd76d6f24996f0dfd76afba71, type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 

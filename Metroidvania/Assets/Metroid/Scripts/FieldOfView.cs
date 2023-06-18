@@ -56,6 +56,7 @@ public class FieldOfView : MonoBehaviour
                             canSeePlayer = false;
                             
                         }
+                        
                     }
                     else if (Mathf.Abs(transform.position.x - target.position.x) > followAI.minimumDistance)
                     {
