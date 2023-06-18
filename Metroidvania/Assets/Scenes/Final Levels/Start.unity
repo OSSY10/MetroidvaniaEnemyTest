@@ -428,10 +428,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 485514042}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b4f0495d6eaa054f8dbce2a3b0a9770, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a4804cdf8c654c4aad61872c2d15502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevel: 0
 --- !u!4 &485514044
 Transform:
   m_ObjectHideFlags: 0
@@ -854,8 +853,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 485514043}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: ExitApplication
+        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
+        m_MethodName: QuitButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
